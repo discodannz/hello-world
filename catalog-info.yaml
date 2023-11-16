@@ -8,5 +8,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
+  owner: Daniel
   providesApis:
     - hello-world
