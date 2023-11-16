@@ -1,0 +1,12 @@
+# Example:
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Daniels-test
+  namespace: external-systems
+  description: Daniels test thingy
+spec:
+  type: service
+  lifecycle: experimental
+  providesApis:
+    - hello-world
